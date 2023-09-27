@@ -36,7 +36,7 @@
 
 
  Define Trigger to manual or automatic<br>
- trigger:  <br>
+ ->trigger:  <br>
   - master<br>
  <br>
  Agents info MS/local<br>
@@ -51,7 +51,22 @@
         - script:echo "A"  ...item<br>
   <br>
 
-  
+...pool can defined in job level and stages <br>
+
+
+# Run jobs sequentially
+
+ ->Method1- If we do not use dependsOn keyword jobs run sequentially default
+ ->Method2- Using dependsOn keyword
+
+ ->dependsOn keyword used for indicating dependency of one stage on another stage
+
+ 
+
+ 
+ 
+       
+ 
   
 
  
