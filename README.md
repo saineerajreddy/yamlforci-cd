@@ -56,10 +56,17 @@
 
 # Run jobs sequentially
 
- ->Method1- If we do not use dependsOn keyword jobs run sequentially default
- ->Method2- Using dependsOn keyword
+ ->Method1- If we do not use dependsOn keyword jobs run sequentially default <br>    
+ ->Method2- Using dependsOn keyword <br>    
 
  ->dependsOn keyword used for indicating dependency of one stage on another stage
+
+
+ # Run jobs parallely
+
+  ->Use <b>dependsOn: []</b> in stage to indicate that it is not dependent on previous stage
+
+
 
  
 
