@@ -67,7 +67,31 @@
   ->Use <b>dependsOn: []</b> in stage to indicate that it is not dependent on previous stage
 
 
+# Add conditions and dependency between stages
 
+ ->Use <b>condition: failed()</b> in stage. The current stage runs only if the previous stage failed otherwise it is skipped.
+ ->Use <b>condition: succeeded('stage name')</b> in stage. The cuurent stage runs only if the mentioned stage name succeeds otherwise it is skipped.
+ -><b>condition: always()</b>
+
+# Job 
+
+->Series of steps that run sequentially.
+->A job is a smallest unit of work.
+
+# Types of jobs
+
+->Agentpool
+->Serverjobs
+->Containerjobs
+
+# Using microsoft hosted agent
+
+->pool:
+    vmImage: 'ubuntu-latest'
+
+  
+
+ 
  
 
  
