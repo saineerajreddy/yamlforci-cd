@@ -36,8 +36,8 @@
 
 
  Define Trigger to manual or automatic<br>
- trigger:<br>
-  - master<br>
+ ->trigger:<br>
+   - master<br>
  <br>
  Agents info MS/local<br>
  ->pool:<br>
